@@ -6,11 +6,20 @@ const Promo = () => {
       <div className="countainer">
         <div className="promo_content">
           <div className="promo_text">
-            <div className="promo_title">LET’S EXPLORE UNIQUE CLOTHES.</div>
-            <div className="promo_description">Live for Influential and Innovative fashion!</div>
+            <div className="promo_title">
+              <span className="highlight">
+                <span>LET’S</span>
+              </span>
+              EXPLORE{' '}
+              <span className="highlight highlight--yellow">
+                <span>UNIQUE</span>
+              </span>{' '}
+              CLOTHES.
+            </div>
+            <div className="promo_desc">Live for Influential and Innovative fashion!</div>
             <div className="promo_btn-wrapper">
               <a href="#!" className="promo_btn">
-                SHOP NOW
+                Shop Now
               </a>
             </div>
           </div>

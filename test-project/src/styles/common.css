@@ -14,3 +14,21 @@ body {
   margin: 0 auto;
   padding: 0 30px;
 }
+
+.title-2 {
+  position: relative;
+  font-weight: 900;
+  font-size: 48px;
+  letter-spacing: 0.06em;
+  line-height: 1.04;
+}
+
+.title-2::after {
+  content: "";
+  position: absolute;
+
+  background-image: url('./../');
+  background-position: 20px 10px;
+  block-size: auto;
+  background-repeat: no-repeat;
+}
