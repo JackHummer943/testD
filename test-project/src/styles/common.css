@@ -1,6 +1,7 @@
 :root {
   --textColor: #000;
   --yellow: #EBD96B;
+  --gray:  #7f7f7F;
 }
 
 
@@ -16,6 +17,7 @@ body {
 }
 
 .title-2 {
+  display: inline-block;
   position: relative;
   font-weight: 900;
   font-size: 48px;
@@ -26,9 +28,15 @@ body {
 .title-2::after {
   content: "";
   position: absolute;
+  z-index: -1;
 
-  background-image: url('./../');
-  background-position: 20px 10px;
-  block-size: auto;
+  right: 0px;
+  bottom: 0px;
+  width: 190px;
+  height: 32px;
+
+  background-image: url('./../img/icons/decor-yellow.svg');
   background-repeat: no-repeat;
+
+  
 }

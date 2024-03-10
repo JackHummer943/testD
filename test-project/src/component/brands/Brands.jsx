@@ -1,4 +1,4 @@
-import './brands.css';
+import './brand.css';
 import hm from './../../img/brands/HM.png';
 import obey from './../../img/brands/Obey.png';
 import shopify from './../../img/brands/shopify.png';
